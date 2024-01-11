@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width", initial-scale="1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Personal portfolio</title>
+   <style>
+      * {
+         margin: 0;
+         padding: 0;
+         font-family:sans-serif;
+      }
+      .header {
+         width: 100%;
+         height: 100vh;
+         background-color: pink;
+      }
+      nav {
+         display: flex;
+         margin: auto;
+         width: 90%;
+         padding: 20px;
+         align-items: center;
+         justify-content: space-between;
+      }
+
+      nav ul li {
+         display: inline-block;
+         list-style: none;
+         margin: 10px;
+      }
+
+      nav ul li a {
+         text-decoration: none;
+         color: black;
+         font-weight: bolder;
+      }
+
+      nav ul li a:hover {
+         background-color: seagreen;
+         border-radius: 2px;
+         color: white;
+      }
+
+      .button-cv, .button-gfc{
+         display: inline-block;
+         margin-left: 0%;
+         border-radius: 5px;
+         transition: background-color 0.5s;
+         background: black;
+         padding: 10px;
+         text-decoration: none;
+         font-weight: bold;
+         color: white;
+         border: none;
+         cursor: pointer;
+      }
+
+      .button-cv:hover {
+         background-color: white;
+         color: black;
+      }
+
+      .button-gfc{
+         background: lightsalmon;
+      }
+
+      .button-gfc:hover {
+         background-color: white;
+         color: black;
+      }
+      .body {
+         margin-left: 100px;
+         margin-top: 100px;
+      }
+
+      .body h1 {
+         font-size: 30px;
+         color: black;
+         margin-bottom: 20px;
+      }
+
+      .demo1 {
+         color: orange;
+         margin-bottom: 30px;
+      }
+  
+      .demo2 {
+         color: black;
+         line-height: 20px;
+      }
+
+      .button-lrn, .button-hire{
+         background: lightsalmon;
+         padding: 10px 12px;
+         text-decoration: none;
+         font-weight: bold;
+         color: whitesmoke;
+         display: inline-block;
+         margin: 30px 8px;
+         border-radius: 5px;
+         transition: background-color 0.3s;
+         border: none;
+         letter-spacing: 1px;
+         cursor: pointer;
+      }
+
+      .button-lrn:hover {
+         background-color: whitesmoke;
+         color: black;
+      }
+
+      .button-hire {
+         background: black;
+      }
+
+      .button-hire:hover {
+         background-color: seagreen;
+      }
+
+      span {
+         color: seagreen;
+       }
+      .image {
+         width: 50%;
+         height: 80%;
+         position: absolute;
+         bottom: 0;
+         right: 100px;
+      }
+      .image img {
+         height: 70%;
+         position:absolute;
+         left: 50%;
+         bottom: 10%;
+         transform: translate(-60%);
+      }
+   </style>
+</head>
+<body>
+   <div class="header">
+      <nav>
+         <a href="#"><img src="https://www.scient.ac.in/images/logo.png?v2" alt="logo" class="logo"></a>
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT ME</a></li>
+            
+         </ul>
+      </nav>
+<li><button type="button"class="button-gfc">Resume</button></li>
+            <li><button type="button" class="button-cv">DOWNLOAD CV</button></li>
+      <div class="body">
+         <h1>Hello <br> I'm Kurva <span>Thirumalesh</span></h1>
+         <h3>SKILLS</h3>
+         <ul>
+           <li>C</li>
+           <li>C++</li>
+           <li>Java</li>
+           <li>HTML,CSS</li>
+          </ul>
+           
+         <button type="button" class="button-lrn">LEARN MORE</button>
+         <button type="button" class="button-hire">HIRE ME</button>
+      </div>
+      <div class="image">
+         <br>
+         <br>
+          <br>
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8eLzQQ-Xut60JHbnp4F7GRUVEBgimDql0vtJcBXzEEISR1NPoydNyvfjLxE2KNqVQxPDL3XE3eCIB9a_ZqXj0H1lYi4U3wb8pT9fH2zGwEzUR84bWh7Y0xhlTn6R3TrPgdqjOcIEmEsOtTYNdIjCjZKwzc7zKR70IkuKEoaQH0smzCQ/s220/IMG_20231222_213938.jpg">     
+      </div>
+   </div>
+</body>
+</html>
